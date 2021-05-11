@@ -1,0 +1,49 @@
+body{
+    background-color:black;
+    background-repeat: no-repeat;
+    
+}
+#Paragraph{
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+#text{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+#otsikot{
+  font-size: 40px;
+  color: white;
+  font-style: oblique;
+  text-align: center;
+}
+.dropbtn{
+  background-color: red;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+}
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: brown;
+  min-width: 160;
+  box-shadow: 0px 8px 16px 0px rgba(red, green, blue, alpha);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: white;
+  padding: 20px 20px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background: darksalmon;}
+.dropdown:hover .dropdown-content{display: block;}
+.dropdown:hover .dropbtn{background-color: darkred; color: wheat;}
