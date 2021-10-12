@@ -18,6 +18,11 @@ body{
  margin-right: 20%;
  margin-top: 1%;
 }
+#EAR {
+  float:right;
+  margin-right: 20%;
+  margin-top: 2%;
+}
 img{
   display: block;
   border-radius: 30px 30px 30px 30px;
@@ -39,7 +44,9 @@ h3{
   margin-left: 10%;
 }
 #homepageimg{
-  margin-left: 29%;
+  margin-left: 25%;
+  width: 50%;
+  height: 50%;
 }
 #Paragraph{
   font-size: 25px;
