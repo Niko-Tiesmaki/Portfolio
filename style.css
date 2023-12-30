@@ -18,6 +18,13 @@ body{
  margin-right: 20%;
  margin-top: 1%;
 }
+#flight {
+  margin: auto;
+  float: right;
+  object-fit: scale-down;
+  max-width: 50%;
+  max-height: 50%;
+}
 img{
   display: block;
   border-radius: 30px 30px 30px 30px;
